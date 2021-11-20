@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "8345a9a49a2fbc75",
+    "type": "split",
+    "children": [
+      {
+        "id": "61c9b6c97295a250",
+        "type": "leaf",
+        "state": {
+          "type": "pdf",
+          "state": {
+            "file": "references/PFE_Dow_Ohulchanskyi_Shelest.pdf"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b66c222631a77dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "914889bed593dd41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "184c95c86fa43aa6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c6964d3529979798",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b0d0048575126766",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0bcc26c071641c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf6d92cf1e93d86b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "references/PFE_Dow_Ohulchanskyi_Shelest.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "61c9b6c97295a250",
+  "lastOpenFiles": [
+    "references/PFE_Dow_Ohulchanskyi_Shelest.pdf",
+    "references/Ohulanski21.pdf",
+    "references/Shelest21.pdf",
+    "references/trajectories.pdf",
+    "references/0408187.pdf",
+    "references/67.pdf",
+    "master-traineeship-recommendations.pdf",
+    "Dow_notes.md",
+    "Pasted image 20211111150910.png",
+    "Pasted image 20211111170603.png"
+  ]
+}
