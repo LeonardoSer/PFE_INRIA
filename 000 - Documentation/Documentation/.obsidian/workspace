@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "c621dbd3fe5cebb5",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd3bfb9226136fda",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "00 - Building_Datasets.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f67db822e18a46dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a5949d4b5bf7433",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ada8ffdcebdde023",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a75ef426c6ff600",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a6bf6a83586c7cd9",
+    "type": "split",
+    "children": [
+      {
+        "id": "adfba82bc13b9ef2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a730b4718d903f42",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 - Building_Datasets.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "dd3bfb9226136fda",
+  "lastOpenFiles": [
+    "00 - Building_Datasets.md",
+    "05 - Splitting_and_Plotting.md",
+    "Assets/Pasted image 20211130115415.png",
+    "10 - Look_at_some_quantities.md",
+    "Assets/Pasted image 20211129151514.png",
+    "Assets/Pasted image 20211129150611.png",
+    "Assets/Pasted image 20211129150142.png",
+    "Assets/Pasted image 20211129150523.png",
+    "Assets/Pasted image 20211129143829.png",
+    "Assets/Pasted image 20211129144105.png"
+  ]
+}
