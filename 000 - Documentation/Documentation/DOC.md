@@ -80,8 +80,8 @@ Each of them is located in the directory `myDATA/10-splitted_by_year/<HOLE_SIZE>
 - Firstly the same chart of the previous notebook is stretched by using an **occurence of a new author as an event** instead of the years.![[Pasted image 20211129155815.png]]
 
 	- located at  `myDATA/10-splitted_by_year//<HOLE_SIZE>_hole_size_splitted/trajectories_plt_by_events`
-- Then the same chart of the previous notebook is stretched by using an **occurence of a new author as an event** instead of the years. ![[Pasted image 20211129155922.png]]
-	- - located at  `myDATA/10-splitted_by_year//<HOLE_SIZE>_hole_size_splitted/trajectories_plt_by_events`
+- Then the same chart of the previous notebook is stretched by using an **occurence of a new collaboration as an event** instead of the years. ![[Pasted image 20211206164829.png]]
+	- located at  `myDATA/10-splitted_by_year//<HOLE_SIZE>_hole_size_splitted/trajectories_plt_by_events`
 
 
 ## 20 - plotting_avg.ipynb
@@ -106,14 +106,14 @@ Each of them is located int the directory  `trajectories_avg_plt` and look as fo
 
 ### new collaboration as event
 - lastly the same chart is stretched by using an **occurence of a new collaboration as an event** instead of the years.	![[Pasted image 20211129150611.png]]
-	
+
 	- They are located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/averages_by_num_collaborations.png`
 
 ## 25 - plotting_functions._of_pubblications_df.ipynb
  Here are plotted:
  - The **number of new authors ** by year in the publication dataset ![[Pasted image 20211129151115.png]]
  - The **number of new publications** by year in the publication dataset ![[Pasted image 20211129151147.png]]
-
+- The **number of new collaborations** by year in the collaboration dataset ![[Pasted image 20211206165358.png]]
 ## 35 - Ratios.ipynb
 Here, both by year and using the occurence of a new collaboration as event, are plotted:
 - The **Ratio** between the number of **new collaboration** and **new authors**.![[Pasted image 20211129151514.png]]
@@ -142,4 +142,4 @@ All results are located at `myDATA/40-degree_distribution/`
 
 ## 46-fitting_degree_distribution.ipynb
 Tried to fit the **whole degree distribution** with **powerlaw** lib 
-![[Pasted image 20211206120733.png]]
+![[Pasted image 20211206165926.png]]
