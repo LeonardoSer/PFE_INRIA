@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "DOC.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -89,14 +89,14 @@
   "active": "dd3bfb9226136fda",
   "lastOpenFiles": [
     "DOC.md",
+    "Assets/Pasted image 20211129140001.png",
+    "DOC.pdf",
+    "Assets/Pasted image 20211206120733.png",
     "05 - Splitting_and_Plotting.md",
     "10 - Look_at_some_quantities.md",
     "Assets/Pasted image 20211130115415.png",
     "Assets/Pasted image 20211129151514.png",
     "Assets/Pasted image 20211129150611.png",
-    "Assets/Pasted image 20211129150142.png",
-    "Assets/Pasted image 20211129150523.png",
-    "Assets/Pasted image 20211129143829.png",
-    "Assets/Pasted image 20211129144105.png"
+    "Assets/Pasted image 20211129150142.png"
   ]
 }

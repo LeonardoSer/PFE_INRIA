@@ -23,9 +23,10 @@ For example, given an **hole size = 3**, the author A1 is active but A2 is not.
 
 ![[Pasted image 20211129142426.png]]
 
-The number of authors kept for each hole size is showed in the following chart:
+The number of authors kept for each hole size is showed in the following chart, and also their differences in the number of authors:
 
 ![[Pasted image 20211129142954.png]]
+![[Pasted image 20211206154905.png]]
 
 The** output of the code are 28 csv ** located in the directory `/myata/05-filtered_by_hole_size/`
 
@@ -116,6 +117,29 @@ Each of them is located int the directory  `trajectories_avg_plt` and look as fo
 ## 35 - Ratios.ipynb
 Here, both by year and using the occurence of a new collaboration as event, are plotted:
 - The **Ratio** between the number of **new collaboration** and **new authors**.![[Pasted image 20211129151514.png]]
+	- located at `myDATA/ratio_beetween_#_newCollaborations_and_#_newAuthors_by_newCollaborations.png` and `myDATA/ratio_beetween_#_newCollaborations_and_#_newAuthors_by_year.png`
 
 - The **Ratio** between **total** number of **collaboration** and **authors**.![[Pasted image 20211129151404.png]]
+	- located at `myDATA/ratio_beetween_#_collaborations_and_#_authors_by_newCollaborations.png` and `myDATA/ratio_beetween_#_collaborations_and_#authors_by_year.png`
 
+## 40-fitting_avg_trajectories_by_starting_y
+Tried to fit average trajectories stretched by new authors and new collaborations.
+
+### stretched by new authors
+![[Pasted image 20211206120207.png]]
+### stretched by new collaboration
+![[Pasted image 20211206120156.png]]
+
+## 45-degree_distribution.ipynb
+Plotted the degree distribution and it's log-log form both for the whole collaboration dataset and for each subset defined by the hole size
+
+All results are located at `myDATA/40-degree_distribution/`
+
+### whole data
+![[Pasted image 20211206120415.png]]
+### for hole size
+![[Pasted image 20211206120458.png]]
+
+## 46-fitting_degree_distribution.ipynb
+Tried to fit the **whole degree distribution** with **powerlaw** lib 
+![[Pasted image 20211206120733.png]]
