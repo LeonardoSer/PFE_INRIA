@@ -122,13 +122,28 @@ Here, both by year and using the occurence of a new collaboration as event, are 
 - The **Ratio** between **total** number of **collaboration** and **authors**.![[Pasted image 20211129151404.png]]
 	- located at `myDATA/ratio_beetween_#_collaborations_and_#_authors_by_newCollaborations.png` and `myDATA/ratio_beetween_#_collaborations_and_#authors_by_year.png`
 
-## 40-fitting_avg_trajectories_by_starting_y
-Tried to fit average trajectories stretched by new authors and new collaborations.
+## 40 - polynomial_fitting_avg_trajectories
+Polynomial fitting of all average trajectories stretched by new authors and new collaborations.
 
 ### stretched by new authors
 ![[Pasted image 20211206120207.png]]
+- located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/<YEAR>_holeSize_<HOLESIZE>by_num_authors_polynomial_fitting.png`
 ### stretched by new collaboration
 ![[Pasted image 20211206120156.png]]
+- located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/<YEAR>_holeSize_<HOLESIZE>by_num_collaborations_polynomial_fitting.png`
+
+## 42 - logaritmic_fitting_avg_trajectories
+Logarithmic fitting of all average trajectories stretched by new authors and new collaborations.
+
+$$ f(t) =\alpha * ln(t)^\gamma$$ 
+
+### stretched by new authors
+![[Pasted image 20211209154036.png]]
+- located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/<YEAR>_holeSize_1by_num_authors_log_fitting.png`
+
+### stretched by new collaboration
+![[Pasted image 20211209151245.png]]
+- located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/<YEAR>_holeSize_1by_num_collaborations_log_fitting.png`
 
 ## 45-degree_distribution.ipynb
 Plotted the degree distribution and it's log-log form both for the whole collaboration dataset and for each subset defined by the hole size
