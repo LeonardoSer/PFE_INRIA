@@ -126,10 +126,10 @@ Here, both by year and using the occurence of a new collaboration as event, are 
 Polynomial fitting of all average trajectories stretched by new authors and new collaborations.
 
 ### stretched by new authors
-![[Pasted image 20211206120207.png]]
+![[Pasted image 20211214140734.png]]
 - located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/<YEAR>_holeSize_<HOLESIZE>by_num_authors_polynomial_fitting.png`
 ### stretched by new collaboration
-![[Pasted image 20211206120156.png]]
+![[Pasted image 20211214140707.png]]
 - located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/<YEAR>_holeSize_<HOLESIZE>by_num_collaborations_polynomial_fitting.png`
 
 ## 42 - logaritmic_fitting_avg_trajectories
@@ -158,3 +158,42 @@ All results are located at `myDATA/40-degree_distribution/`
 ## 46-fitting_degree_distribution.ipynb
 Tried to fit the **whole degree distribution** with **powerlaw** lib 
 ![[Pasted image 20211206165926.png]]
+
+## 50-generalized_alpha_sigma_log_fitting_for_avg_trajectories
+
+The fitting function used is the following: 
+$$g_v(t) = (\alpha * ln(\frac{t}{t_v}) + 1)^\sigma$$
+
+Plotted all average trajectories for each starting year and the fitted curve for each of them ![[Pasted image 20211214114101.png]]
+
+The have the following parameters ![[Pasted image 20211216132424.png]]
+Plotting them ![[Pasted image 20211216132453.png]]
+
+- located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/_holeSize_<HOLE_SIZE>by_num_collaborations_log_fittings_all.png`
+
+Then tried to find the best parameters $\alpha$ and $\sigma$ able to fit all curves minimizing the total error 
+
+![[Pasted image 20211214114754.png]]
+
+- located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/<YEAR>_by_num_collaborations_alpha_sigma_poly_fitting_generalized.png
+`
+
+The same procedure has been applied for other 2 kind of event: "new publication" and "new author", the are located respectively `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/<YEAR>_by_num_publications_alpha_sigma_poly_fitting_generalized.png`
+
+## 55-generalized_gamma_beta_poly_fitting_for_avg_trajectories
+
+Same as notebook **50** but with a different function 
+
+The fitting function used is the following: 
+$$g_v(t) = (\gamma + 1) * (\frac{t}{t_v})^\beta - \gamma$$
+
+Plotted all average trajectories for each starting year and the fitted curve for each of them ![[Pasted image 20211214135548.png]]
+- located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/_holeSize_<HOLE_SIZE>by_num_collaborations_poly_fittings_all.png`
+
+
+Then tried to find the best parameters $\gamma$ and $\beta$ able to fit all curves minimizing the total error ![[Pasted image 20211214135620.png]]
+
+- located at `myDATA/10-splitted_by_year/<HOLE_SIZE>_hole_size_splitted/trajectories_avg_plt/<YEAR>_by_num_collaborations_gamma_beta_poly_fitting_generalized.png
+`
+
+The error made is worst than the logarithmic one (**50**)

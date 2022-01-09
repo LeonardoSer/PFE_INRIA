@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Documentation/DOC.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 398.0068016052246
   },
   "right": {
     "id": "82d08cfab804be0f",
@@ -89,8 +89,14 @@
   "active": "b3a5e6cf6fe1eec0",
   "lastOpenFiles": [
     "Documentation/DOC.md",
-    "Documentation/Assets/Pasted image 20211209151245 1.png",
-    "Documentation/Assets/Pasted image 20211209151245.png",
-    "Documentation/Assets/Pasted image 20211209154023.png"
+    "Documentation/DOC.pdf",
+    "Documentation/Assets/Pasted image 20211129151115.png",
+    "Documentation/Assets/Pasted image 20211129142426.png",
+    "Documentation/Assets/Pasted image 20211129142704.png",
+    "Documentation/Assets/Pasted image 20211129140011.png",
+    "Documentation/Assets/Pasted image 20211129140001.png",
+    "Dow.pdf",
+    "tmp.md",
+    "references/trajectories.pdf"
   ]
 }
